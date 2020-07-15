@@ -14,7 +14,7 @@
 		<module>config-server</module>
 		<module>order-service</module>
 		<module>order-item-service</module>
-		<module>gateway-service</module>
+		<module>zuul-server</module>
 	</modules>
 
 </project>
