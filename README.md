@@ -4,35 +4,35 @@ This is the repository contain the micro service assignment part one
 How to start the first Microservice assignment project;
 <hr>
 
-eureka-server
+eureka-server::
  Start the eureka server with below command
   mvn spring-boot:run
   
   <hr>
-  config-server
+  config-server::
  Start the config server with below command
   mvn spring-boot:run
   
    <hr>
    
-  zuul-server
+  zuul-server::
 <hr>
  Start the zuul server with below command
   mvn spring-boot:run
   
    <hr>
-   zipkin-server
+   zipkin-server::
  Download and Start the zipkin server with below command
  curl -sSL https://zipkin.io/quickstart.sh | bash -s
   java -jar zipkin.jar
   
    <hr>
-order-service
+order-service::
 <hr>
  Start the order service with below command
   mvn spring-boot:run
    <hr>
-  order-item-service
+  order-item-service::
  Start the order-item-service with below command
   mvn spring-boot:run
   
